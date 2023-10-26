@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Form Design</title>
+    <link rel="stylesheet" href="form.css">
+
+    <style>
+        nav>ul>li>a {
+            text-decoration: none;
+        }
+
+        nav ul li {
+            /* display: inline; */
+            margin-right: 20px;
+            color: black;
+            padding: 10px;
+            font-size: 20px;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        nav ul {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Second.html">Index Page</a></li>
+                <li><a href="index.html">Video Page</a></li>
+                <li><a href="form.html">Form Page</a></li>
+                <li><a href="index.html">Conatct</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <form>
+        <label for="name">
+            <input type="name" placeholder="Enter Your Name" name="name"> </label>
+        <label for="name"> </label>
+        <input type="email" placeholder="Enter Your Email" name="email">
+        <label for="name"> </label>
+        <input type="number" placeholder="Enter Your Phone Number" name="number">
+        <label for="name"> </label>
+        <input type="text" placeholder="Enter Your Address" name="address">
+
+        <fieldset>
+            <legend>
+                Pick One
+            </legend>
+            <label for="radio">
+                <input type="radio" placeholder="Select one of that" name="one"> HTML
+            </label>
+
+            <label for="radio">
+                <input type="radio" placeholder="Select one of that" name="one"> CSS
+            </label>
+
+            <label for="radio">
+                <input type="radio" placeholder="Select one of that" name="one"> JS
+            </label>
+
+
+        </fieldset>
+
+        <label for="name"> </label>
+        <input type="submit" placeholder="Click to submit" name="submit_btn">
+        <input type="reset" placeholder="Click to Reset" name="reset-btn">
+
+    </form>
+</body>
+
+</html>

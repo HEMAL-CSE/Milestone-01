@@ -1,0 +1,24 @@
+body{
+    background-image: url();
+}
+
+nav > ul >li >a{
+    text-decoration: none;
+     /* text-align: inline;  */
+    /* margin-right: 10px; */
+}
+li{
+    display: inline;
+     margin-right: 20px;
+     font-size: 22px;
+}
+
+footer{
+    text-align: center;
+}
+img{
+    width: 100%; 
+    /* width: 720px; */
+    height: 460px;
+    align-items: center;
+}

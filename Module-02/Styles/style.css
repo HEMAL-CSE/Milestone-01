@@ -1,0 +1,24 @@
+.div1{
+     background-color: yellowgreen; 
+    /* text-decoration: underline; */
+
+}
+.div2{
+    display: block;
+    background-color: blanchedalmond;
+    border: 4px solid;
+}
+.div3{
+    /* background-image: url('hemal.jpg'); */
+}
+body{
+    /* background-image: url('hemal.jpg'); */
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* background-size: contain; */
+    /* background-size: 400px; */
+     background-image: url('../Hemal.jpg'); 
+     /* display: inline-block; */
+
+    
+}

@@ -1,0 +1,15 @@
+body{
+    background-color: royalblue;
+}
+video{
+    /* margin: 200px; */
+    height: 280px;
+}
+iframe{
+    margin-left: 120px;
+}
+
+/* For form CSS */
+label{
+    display: inline;
+}
