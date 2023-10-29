@@ -1,3 +1,35 @@
 #h{
     cursor: pointer;
 }
+.container{
+    display: flex;
+    /* align-items: center; */
+    padding: 20px;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.box{
+    background-color: red;
+    height: 200px;
+    align-items: center;
+    width: 100px;
+    display: flex;
+    padding: 10px;
+}
+.div2{
+    background-color: green;
+    height: 200px;
+    align-items: center;
+    width: 100px;
+    display: flex;
+    padding: 10px;
+}
+.div3{
+    background-color: blue;
+    height: 200px;
+    align-items: center;
+    width: 100px;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
